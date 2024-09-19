@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url(Brown\ and\ White\ Clean\ Lawyer\ Business\ Presentation.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    /* background-color: #fff; */
+    padding: 10px 30px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo{
+    margin-left: 100px;
+}
+.logo img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+nav{
+    background-color: rgb(212, 211, 211);
+    padding: 15px 25px;
+    border-radius: 45px;
+    
+}
+nav ul img {
+    width: 23px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 120px;
+}
+nav ul li {
+    color: #8f5322;
+    cursor: pointer;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #c77837;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.profile img {
+    width: 35px;
+}
+
+.middle{
+
+    /* background-color:; */
+    color: white;
+    padding: 50px 30px;
+    text-align: center;
+    
+}
+
+.middle1{
+    display: inline-block;
+    background-color: #333;
+    width: 80%;
+    height: 30vh;
+    margin-top: none;
+    padding-top: 50px;
+    background: url("lady1.png") no-repeat  ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    padding-right: 750px;
+    
+    
+}
+
+
+.middle h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.wrap{
+    display: grid;
+    grid-template-columns: 0.7fr 2.3fr;
+    
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+}
+.search-bar button {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10x;
+}
+
+.line{
+    display: block;
+    border-radius: 5PX;
+    border: 3px solid #bb6a28;
+    width: 77%;
+    margin-left: 170px;
+
+}
+.services-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 11px;
+    margin-top: 30px;
+    margin-left: 168px;
+}
+.service-btn {
+    background-color:#8f5322;
+    color: white;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 37px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.service-btn1{
+    background-color: white;
+    border: none;
+    color:#8f5322;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    
+    padding: 30px;
+    margin-right: 37px;
+
+    /* background-color: #fff; */
+}
+.details-box {
+    background-color: #8f5322;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+     
+}
+
+
+.details-box h3 {
+    margin-bottom: 13px;
+}
+
+
+.chatbot{
+    display: flex;
+}
+.chat{
+    color: #8f5322;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px 20px;
+    border: none;
+    margin-top:100px;
+    font-weight: 700;
+    font-size: 16px;
+    
+    
+}
+
+.bot{
+    width: 24px;
+    height: 24px;
+    margin-top: 116px;
+    margin-right: 40px;
+}
+
+.chatbot img{
+    
+    width: 30px;
+    height: 30px;
+    margin-top: 116px;
+    margin-right: 40px;
+    
+}
+.chat-div{
+    display: flex;
+    
+}
+
+#search-icon{
+    margin-left: -70px;
+    cursor: pointer;
+}
